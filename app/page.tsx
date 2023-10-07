@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import link from '@/assets/link.svg'
-import regroup from '@/assets/regroup.svg'
+import regroup from '@/assets/Regroup.svg'
  interface Data{
   content: string,
   author: string,
