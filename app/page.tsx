@@ -48,7 +48,7 @@ export default function Home() {
               ))}
             </div>
           </div>
-          <p className='text-white text-opacity-50 text-xl text-center'>"{quote.content}"</p>
+          <p className='text-white text-opacity-50 text-xl text-center'>{'"'+quote.content+'"'}</p>
         </div>
         <div className='flex'>
           <button className='border border-light-gray rounded-l-md p-1' onClick={getQuote}><Image src={regroup} alt='regroup' /></button>
