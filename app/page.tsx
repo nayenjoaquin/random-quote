@@ -10,11 +10,7 @@ import regroup from '@/assets/Regroup.svg'
 }
 
 export default function Home() {
-  const [quote, setQuote] = useState<Data>({
-    content: '',
-    author: '',
-    tags: [],
-  })
+  const [quote, setQuote] = useState<Data|null>(null)
   useEffect(() => {
     getQuote()
   }, [])
